@@ -30,7 +30,7 @@ const About: React.FC = () => {
     <div className="order-1 lg:order-2 flex justify-center">
       <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center">
         <img
-          src="/public/images/profile.jpg"
+          src="/images/profile.jpg"
           alt="Profile"
           className="w-full h-full object-cover"
         />

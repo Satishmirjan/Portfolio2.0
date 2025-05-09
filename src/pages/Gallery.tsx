@@ -84,6 +84,7 @@ const Gallery: React.FC = () => {
       subtitle="Highlights from my journey"
       className="bg-gray-50 dark:bg-gray-800 pt-32 mt-8"
     >
+     
       <div className="flex justify-center mb-8 space-x-4">
         {categories.map((category) => (
           <button

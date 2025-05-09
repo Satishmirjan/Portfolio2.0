@@ -12,37 +12,37 @@ interface GalleryImage {
 const galleryImages: GalleryImage[] = [
   {
     id: 1,
-    src: '/public/images/national.jpg',
+    src: '/images/national.jpg',
     alt: 'National Hackathon – HackElite (JSS STU)',
     category: 'Hackathons'
   },
   {
     id: 2,
-    src: '/public/images/into.jpg',
+    src: '/images/into.jpg',
     alt: 'Seminar: Introduction to C Programming',
     category: 'Seminars'
   },
   {
     id: 3,
-    src: '/public/images/blockchain.jpg',
+    src: '/images/blockchain.jpg',
     alt: 'Seminar: Blockchain with Shardeum',
     category: 'Seminars'
   },
   {
     id: 4,
-    src: '/public/images/cloud.jpg',
+    src: '/images/cloud.jpg',
     alt: 'Seminar: Cloud Computing Essentials',
     category: 'Seminars'
   },
   {
     id: 5,
-    src: '/public/images/linux.jpeg',
+    src: '/images/linux.jpeg',
     alt: 'Seminar: Getting Started with Linux',
     category: 'Seminars'
   },
   {
     id: 6,
-    src: '/public/images/hackk.jpg',
+    src: '/images/hackk.jpg',
     alt: 'National Hackathon Participation',
     category: 'Hackathons'
   }
