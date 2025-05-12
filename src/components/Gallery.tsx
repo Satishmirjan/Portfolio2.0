@@ -18,19 +18,19 @@ const galleryImages: GalleryImage[] = [
   },
   {
     id: 2,
-    src: '/public/images/into.jpg',
+    src: '/images/into.jpg',
     alt: 'Seminar: Introduction to C Programming',
     category: 'Seminars'
   },
   {
     id: 3,
-    src: '/public/images/blockchain.jpg',
+    src: '/images/blockchain.jpg',
     alt: 'Seminar: Blockchain with Shardeum',
     category: 'Seminars'
   },
   {
     id: 4,
-    src: '/public/images/cloud.jpg',
+    src: '/images/cloud.jpg',
     alt: 'Seminar: Cloud Computing Essentials',
     category: 'Seminars'
   },
