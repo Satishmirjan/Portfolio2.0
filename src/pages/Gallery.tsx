@@ -63,6 +63,19 @@ const galleryImages: GalleryImage[] = [
     src: '/images/aurigo.jpg',
     alt: 'Hackathon Participation – Organised by Aurigo (Bengaluru)',
     category: 'Hackathons'
+
+  },
+  {
+    id: 10,
+    src: '/images/git.jpg',
+    alt: 'Hackathon Participation – Organised by Global Institute of Technology (Bengaluru)',
+    category: 'Hackathons'
+  },
+  {
+    id: 10,
+    src: '/images/bmsit.jpg',
+    alt: 'Hackathon Participation (Code-Red)– Organised by BMSIT (Bengaluru)',
+    category: 'Hackathons'
   }
 ];
 
