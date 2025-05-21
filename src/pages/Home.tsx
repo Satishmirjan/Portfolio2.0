@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sphere } from '@react-three/drei';
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 import About from '../components/Home/About';
 import Projects from '../components/Home/Projects';
 import Skills from '../components/Skills';
@@ -44,7 +44,7 @@ const Home = () => {
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
               A passionate developer creating impactful digital experiences
             </p>
-            <div className="flex space-x-4">
+            <div className="flex flex-wrap gap-4">
               <Link
                 to="/projects"
                 className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-colors"
@@ -58,6 +58,14 @@ const Home = () => {
               >
                 Get In Touch
               </Link>
+              <a
+                href="/SatishNaik.pdf"
+                download
+                className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg flex items-center space-x-2 transition-colors"
+              >
+                <Download size={20} />
+                <span>Download Resume</span>
+              </a>
             </div>
           </motion.div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../UI/Button';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -38,10 +38,11 @@ const Hero: React.FC = () => {
               Get In Touch
             </Button>
             <a
-              href="/resume.pdf"
+              href="/SatishNaik.pdf"
               download
-              className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold shadow hover:bg-indigo-700 transition-colors text-lg text-center sm:w-auto"
+              className="inline-flex items-center justify-center px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold shadow hover:bg-indigo-700 transition-colors text-lg"
             >
+              <Download className="mr-2" size={20} />
               Download Resume
             </a>
           </div>
